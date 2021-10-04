@@ -2,6 +2,6 @@
 
 node {
     stage('First stage') {
-        error "nope"
+        sh "echo 'other build'"
     }
 }
